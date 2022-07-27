@@ -100,7 +100,7 @@
   </header>
   <main class="mt-4 container">
     <section class=" text-white mb-5">
-      <div class="container pt-5 text-center font-monospace w-50">
+      <div class="container pt-5 text-center font-monospace w-50 ">
         <div class="d-flex justify-content-center">
           <h5 class="fw-bold fs-1 w-75">Discover Our Popular Courses</h5>
         </div>
@@ -227,13 +227,231 @@
       </div>
     </article>
     <section class="my-5 d-flex justify-content-center">
-      <div class="live-button bg-danger px-4 rounded-1 pt-3" id="btn-anm">
+      <button class="live-button bg-danger px-4 rounded-1 pt-3" id="btn-anm">
         <a target="_blank" href="https://google.com" class="text-white text-decoration-none">
-            <p class="">See More Courses</p>
+          <p class="">See More Courses</p>
         </a>
-     </div>
+      </button>
+    </section>
+
+    <!-- Registration Form Start-->
+
+    <section class="d-flex bg-primary rounded-3 ps-4">
+      <div class="w-75 m-5 text-light">
+        <h1 class="mb-3">Ready to join?</h1>
+        <p class="w-75">
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout.
+        </p>
+      </div>
+      <div class="w-25 m-auto d-flex justify-content-center">
+
+        <button type="button" class="btn btn-outline-primary text-bg-light px-4 py-2 fw-semibold text-primary fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          data-bs-whatever="@mdo">Register Now</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form class="row g-3">
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="first name">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Last NAme</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="last name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">Gander</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Male</option>
+                      <option selected>Female</option>
+                      <option selected>Don't Say</option>
+                      <option selected>Choice...</option>
+                      
+                      
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Check me out
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sign In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Registration Form End-->
+
+    <!-- Question part Start -->
+
+    <section class="pt-5 pb-5 text-center">
+      <div class="text-white mb-5">
+        <h1>Frequently Asked Questions</h1>
+        <br />
+        <p>
+          It is a long established fact that a reader will be distracted by
+          the readable <br />
+          content of a page when looking at its layout.
+        </p>
+      </div>
+      <section class="d-flex justify-content-center bg-gradient py-5">
+        <div class="w-75 ">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-semibold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  What are the difference between flexbox and grid?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    The basic difference between CSS Grid Layout and CSS Flexbox
+                    Layout is that flexbox was designed for layout in one
+                    dimension - either a row or a column. Grid was designed for
+                    two-dimensional layout - rows, and columns at the same time.
+                    The two specifications share some common features, however,
+                    and if you have already learned how to use flexbox, the
+                    similarities should help you get to grips with Grid.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-semibold fs-5" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Difference between Bootstrap and Tailwind css?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    Bootstrap comes with a set of pre-styled responsive,
+                    mobile-first components that possess a definite UI kit.
+                    Tailwind CSS uses a set of utility classes to create a neat
+                    UI with more flexibility and uniqueness. Sites created using
+                    Bootstrap follow the generic pattern that makes them look
+                    identical
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fw-semibold fs-5" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is css box model?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    In CSS, the term "box model" is used when talking about
+                    design and layout. The CSS box model is essentially a box
+                    that wraps around every HTML element. It consists of:
+                    margins, borders, padding, and the actual content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fw-semibold fs-5" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What is semantic tag?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    The HTML semantics refers to the tags that provide meaning
+                    to an HTML page rather than just presentation. It makes HTML
+                    more comprehensible by better defining the different
+                    sections and layout of web pages.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Question part End -->
+
+    <!-- Company logo start -->
+
+    <section class="container">
+      <div class="text-center">
+        <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
+
+  <section class="container">
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>

@@ -1,8 +1,9 @@
 body{
-    background-color: black;
+    background-color: #07010a;
 }
 .carousel-item img {
     height: 32vw;
+    filter: brightness(40%);
 }
 .carousel-caption{
     width: 45%;
@@ -38,4 +39,7 @@ body{
 
 #btn-anm a:hover {
     color: black;
+}
+.text-color{
+    color: #fec53a;
 }
