@@ -26,3 +26,16 @@ body{
         left: 120px;
     }
 }
+.live-button {
+    /* Live button animation */
+    transition: ease-out 2s;
+}
+
+.live-button:hover {
+    box-shadow: inset 200px 0 0 0 rgb(25, 0, 255);
+
+}
+
+#btn-anm a:hover {
+    color: black;
+}

@@ -1,88 +1,242 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="container">
-        <section class="d-flex justify-content-between align-items-center py-lg-4 p-3">
-            <div class=" text-white">
-                <span class="fs-3 fw-semibold ">Digital Learning</span>
-            </div>
-            <div class=" d-flex justify-content-between align-items-center nav-width flex-md-row-reverse flex-lg-row">
-                <nav class="navbar-expand-lg navbar navbar-dark w-100">
-                    <div class="container-fluid">
-                      <button class="navbar-toggler btn-position" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <ul class="navbar-nav d-flex justify-content-between w-75" >
-                          <li class="nav-link active" aria-current="page" href="#">Home</li>
-                          <li class="nav-link" href="#">Features</li>
-                          <li class="nav-link" href="#">Pricing</li>
-                          <li class="nav-link" href="#">Pricing</li>
-                          <li class="nav-link" href="#">Pricing</li>
-                          <li class="nav-link" href="#">Pricing</li>
-                          
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-                  <div class="d-none d-sm-block"><button type="button" class="btn btn-outline-primary px-5 py-2 fs-5 fw-semibold btn-position">Primary</button></div>
-            </div>
-        </section>
 
-          <!-- Image slider  -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
 
-          <section class="mt-4">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                  <button buttontype="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active d-flex justify-content-center position-relative">
-                    <img src="cover/cover-1.png" class="d-block w-100 img-fluid " alt="...">
-                    <div class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle">
-                      <p class="fs-1 fw-bold">The perfect venue for your next event</p>
-                      <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate quaerat deleniti voluptates explicabo!</p>
-                      <button type="button" class="btn btn-danger mt-2 mb-5 px-4 text-white fw-bolder text-size">Get Started</button>
-                    </div>
-                  </div>
-                  <div class="carousel-item position-relative">
-                    <img src="cover/cover-2.jpg" class="w-100 img-fluid" alt="...">
-                    <div class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle">
-                        <p class="fs-1 fw-bold">The perfect venue for your next event</p>
-                        <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate quaerat deleniti voluptates explicabo!</p>
-                        
-                      </div>
-                  </div>
-                  <div class="carousel-item position-relative">
-                    <img src="cover/cover-3.jpg" class="w-100 img-fluid" alt="...">
-                    <div class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle">
-                        <p class="fs-1 fw-bold">The perfect venue for your next event</p>
-                        <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate quaerat deleniti voluptates explicabo!</p>
-                        
-                      </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-    </header>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
+<body>
+  <header class="container">
+    <section class="d-flex justify-content-between align-items-center py-lg-4 p-3">
+      <div class=" text-white">
+        <span class="fs-3 fw-semibold ">Digital Learning</span>
+      </div>
+      <div class=" d-flex justify-content-between align-items-center nav-width flex-md-row-reverse flex-lg-row">
+        <nav class="navbar-expand-lg navbar navbar-dark w-100">
+          <div class="container-fluid">
+            <button class="navbar-toggler btn-position" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav d-flex justify-content-between w-75">
+                <li class="nav-link active" aria-current="page" href="#">Home</li>
+                <li class="nav-link" href="#">Features</li>
+                <li class="nav-link" href="#">Pricing</li>
+                <li class="nav-link" href="#">Pricing</li>
+                <li class="nav-link" href="#">Pricing</li>
+                <li class="nav-link" href="#">Pricing</li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="d-none d-sm-block"><button type="button"
+            class="btn btn-outline-primary px-5 py-2 fs-5 fw-semibold btn-position">Primary</button></div>
+      </div>
+    </section>
+
+    <!-- Image slider  -->
+
+    <section class="my-5">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button buttontype="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex justify-content-center position-relative">
+            <img src="cover/cover-1.png" class="d-block w-100 img-fluid " alt="...">
+            <div class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle">
+              <p class="fs-1 fw-bold">The perfect venue for your next event</p>
+              <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate quaerat
+                deleniti voluptates explicabo!</p>
+              <button type="button" class="btn btn-danger mt-2 mb-5 px-4 text-white fw-bolder text-size">Get
+                Started</button>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <img src="cover/cover-2.jpg" class="w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle">
+              <p class="fs-1 fw-bold">The perfect venue for your next event</p>
+              <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate quaerat
+                deleniti voluptates explicabo!</p>
+
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <img src="cover/cover-3.jpg" class="w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-md-block position-absolute top-50 start-50 translate-middle">
+              <p class="fs-1 fw-bold">The perfect venue for your next event</p>
+              <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate quaerat
+                deleniti voluptates explicabo!</p>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </header>
+  <main class="mt-4 container">
+    <section class=" text-white mb-5">
+      <div class="container pt-5 text-center font-monospace w-50">
+        <div class="d-flex justify-content-center">
+          <h5 class="fw-bold fs-1 w-75">Discover Our Popular Courses</h5>
+        </div>
+        <p>
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout.
+        </p>
+      </div>
+    </section>
+    <article>
+      <div class="row g-4">
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-light d-flex gap-3 rounded-2">
+            <div>
+              <img src="course/course-1.png" class="img-fluid" alt="" srcset="">
+            </div>
+
+            <div class="w-75 d-flex flex-column justify-content-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur provident eius assumenda accusantium
+                officia rem?</p>
+              <span class="text-danger fw-semibold">Price : 20$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section class="my-5 d-flex justify-content-center">
+      <div class="live-button bg-danger px-4 rounded-1 pt-3" id="btn-anm">
+        <a target="_blank" href="https://google.com" class="text-white text-decoration-none">
+            <p class="">See More Courses</p>
+        </a>
+     </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
