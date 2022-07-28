@@ -13,6 +13,9 @@
     .nav-width{
         width: 23%;
        }
+        .carousel-item img{
+        height: 150vw;
+    }
 }
 
 @media only screen and (min-width: 661px) and (max-width: 991px) {
