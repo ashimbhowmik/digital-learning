@@ -13,8 +13,29 @@
     .nav-width{
         width: 23%;
        }
-        .carousel-item img{
-        height: 150vw;
+    .carousel-item img{
+        height: 120vw;
+    }
+    .text-size{
+        font-size: 14px;
+    }
+    .postion-left{
+       position: relative;
+       left: 25px;
+    }
+    .postion-left1{
+        position: relative;
+        right: 12px;
+    }
+    .register-margin{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .mobile-width{
+        width: 100%;
+    }
+    .slide-width{
+        width: 70%;
     }
 }
 
@@ -26,9 +47,11 @@
         position: relative;
         left: 120px;
     }
+    .carousel-item img{
+        height: 60vw;
+    }
 }
 .live-button {
-    /* Live button animation */
     transition: ease-out 2s;
 }
 
