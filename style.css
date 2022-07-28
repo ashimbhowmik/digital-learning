@@ -1,3 +1,6 @@
+.font-change{
+    font-family: 'Poppins', sans-serif;
+}
 .carousel-item img {
     height: 32vw;
     filter: brightness(40%);
@@ -9,6 +12,9 @@
 .nav-width{
  width: 75%;
 }
+/* .img-size{
+    height: 405px;
+} */
 @media only screen and (max-width: 660px) {
     .nav-width{
         width: 23%;
@@ -63,6 +69,9 @@
     }
     .carousel-item img{
         height: 60vw;
+    }
+    .student-img{
+        height: 665px;
     }
 }
 .live-button {
